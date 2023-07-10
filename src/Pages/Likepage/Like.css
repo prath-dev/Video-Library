@@ -1,0 +1,7 @@
+.categories-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-filter{
+    margin-left: 2rem;
+}

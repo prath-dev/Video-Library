@@ -1,0 +1,36 @@
+/*.close-badge {
+    position: absolute ;
+    right: -7%;
+    color:gainsboro;
+    bottom: 93%;
+color :gainsboro ;
+cursor: pointer;
+     width: 2.8rem;
+}*/
+
+*{
+    font-family: 'Karla';
+ }
+ 
+ body{
+    background: #F4F5FA;
+ }
+ 
+ .playlist-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+ }
+ 
+ .card-route{
+    background: #FFF;
+    width: 250px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+ }
+ 

@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.player{
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #fe7615;
+    margin-left: 0.25rem;
+  
+}
+
+.skiller-outerbox{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--navbar-bg);
+}
+
+.main-navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 70px;
+    background-color:#fff;
+    text-align: center;
+    box-shadow: 2px 2px 10px 0;
+
+}
+
+.login-btn{
+    background-color: #fe7615;
+    color: var(--white);
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.25rem 1.1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 2.5rem;
+}
+
+.nav-input{
+ 
+    border: 1px solid #35312b;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    color: var(--white);
+}
+
+.nav-search{
+    border: 1px solid #35312b; 
+    border-radius:  0 0.5rem 0.5rem 0;
+    background-color:#27262b;
+    margin-top: 0.1rem;
+    cursor: pointer;
+}
+
+.search-outerbox{
+    width: 40rem;
+   margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    color: var(--white);
+    background-color: var(--navbar-bg);
+}
+
+
+@media(max-width: 944px){
+    .card-img{
+        margin-left: 2.5rem;
+    }
+    .main-logo{
+        margin: 0;
+    }
+    .search-outerbox{
+        width: 40rem;
+      
+    }
+    .login-btn{
+        margin: 0;
+    }
+
+.nav-input{
+    width: 40rem;
+}
+
+    .main-logo{
+        width: 2rem;
+    }
+
+    .main-navbar{
+        justify-content: space-around;
+    }
+    
+    .skiller{
+        font-size: 1.8rem;
+        margin-left: 0.1rem;
+    }
+}
+
+@media(max-width: 470px){
+    .main-logo{
+        width: 2.7rem;
+        margin-left: 10px;
+    }
+    .search-outerbox{
+        margin-right: 1rem;
+      
+    }
+    .nav-input{
+        width: 15rem;
+    }
+
+    .skiller{
+        display: none;
+    }
+
+    .login-btn{
+        display: none;
+    }
+
+    .search-outerbox{
+        margin-right: 1rem;
+        width: auto;
+    }
+}

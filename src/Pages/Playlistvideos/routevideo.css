@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+*{
+   font-family: 'Karla';
+}
+
+body{
+   background: #F4F5FA;
+}
+
+.playlist-container3{
+    margin-top: 5rem;
+   display: flex;
+justify-content: center;
+   flex-wrap: wrap;
+}
+
+.playlist-videos3{
+
+   width: 330px;
+   margin: 16px;
+   box-sizing: border-box;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+.img2 img{
+   height: 200px;
+   width: 100%;
+   background: url('https://images.pexels.com/photos/2469122/pexels-photo-2469122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+   border-radius: 5px;
+   background-size: cover;
+}
+
+/*a{
+   padding: 10px;
+   width: 100%;
+   display: block;
+   text-align: center;
+   background: #333EFF20;
+   box-sizing: border-box;
+   border-radius: 4px;
+   color: #333eFF;
+   text-decoration: none;
+   font-size: 15px;
+}*/

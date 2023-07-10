@@ -1,0 +1,149 @@
+body{
+  text-decoration: none;
+}
+.main-sidebar {
+  display: flex;
+    color: var(--white);
+    background-color:white;
+    position: fixed;
+    top: 4.5rem;
+    bottom: 0;
+    z-index: 9999;
+   
+  }
+  
+  .sider-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 14rem;
+    height: 25rem;
+
+  }
+  .sider-ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .list-sidebar {
+    cursor: pointer;
+    padding: 2rem 0 0.8rem 0;
+    background-color: var(--navbar-bg);
+  }
+
+  .sidebar-icn-name-watchlater{
+    font-weight: 400;
+    margin-left: 0.9rem;
+    display: inline;
+   
+  }
+  
+  .list-sidebar:hover {
+  
+    background-color: #8553fa48;
+  }
+  
+  .sidebar-icn-name {
+    font-weight: 400;
+    margin-left: 1rem;
+    display: inline;
+   
+  }
+  
+  .sider-icn {
+    margin-left: 2.5rem;
+    cursor: pointer;
+    background-color: var(--navbar-bg);
+  }
+  
+  .profile {
+    display: none;
+  }
+  
+  .active-navlink {
+    color: var(--main-orange);
+    text-decoration: none;
+  }
+  
+  .not-active {
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  @media (max-width: 1200px) {
+    .sider-ul {
+      width: 6.5rem;
+    }
+  
+    .sidebar-icn-name {
+      display: block;
+      margin: 0.4rem 0 0 0;
+    }
+  
+    .sider-icn {
+      margin-left: 0;
+    }
+  
+    .list-sidebar {
+      padding: 1rem 0rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 635px) {
+    .main-sidebar {
+      position: fixed;
+      top: auto;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  
+    .sider-ul {
+      display: flex;
+      justify-content: space-between;
+      height: 3.8rem;
+      width: auto;
+      padding: 0 1.6rem;
+    }
+  
+    .hide {
+      display: none;
+    }
+  
+    .profile {
+      display: flex;
+    }
+  
+    .list-sidebar:hover {
+      color: var(--main-orange);
+      background-color: var(--navbar-bg);
+    }
+  
+    .list-sidebar:hover .sidebar-icn-name {
+      background-color: var(--navbar-bg);
+    }
+  
+    .list-sidebar:hover .sider-icn {
+      background-color: var(--navbar-bg);
+    }
+  
+    .list-sidebar {
+      margin: 0rem 0.9rem;
+      padding: 13px 0;
+    }
+  
+    .sidebar-icn-name {
+      font-weight: 400;
+      font-size: 15.2px;
+      margin-top: 2px;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+.history-box{
+
+  display: flex;
+   flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 6rem;
+  row-gap: 0px;
+  column-gap: 0px;
+  flex:1,1,1,1;
+ margin-left: 10rem;
+ 
+   
+  }
+  .remove-btn{
+    color: blue;
+    border: 2px solid #FE7615;;
+    display: flex;
+    justify-content: center;
+    background-color:#FE7615;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    cursor: pointer;
+  }
