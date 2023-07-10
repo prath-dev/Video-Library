@@ -51,14 +51,7 @@ const Sidebar = () => {
             </NavLink>
         
         </li>
-        <li className="profile">
-              <NavLink to="/profile">
-            <div className="list-sidebar">
-              <i className="fa-solid fa-user sider-icn"></i>
-              <div className="sidebar-icn-name">Profile</div>
-            </div>
-           </NavLink>
-        </li>
+       
       </ul>
     </nav>
     </div>
