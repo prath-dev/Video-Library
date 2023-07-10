@@ -1,4 +1,4 @@
-import "./LoginPage.css";
+import "./loginpage.css";
 import { Navbar } from '../../components/Navbar/Navbar'
 
 import { Link, useNavigate } from "react-router-dom";
