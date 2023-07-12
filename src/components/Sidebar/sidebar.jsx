@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <div>
+    
          <nav className="main-sidebar">
       <ul className="sider-ul">
         <li>
@@ -16,6 +16,7 @@ const Sidebar = () => {
             </NavLink>
         
         </li>
+     
         <li>
           <NavLink to="/play">
             <div className="list-sidebar">
@@ -23,8 +24,7 @@ const Sidebar = () => {
               <div className="sidebar-icn-name ">Playlist</div>
             </div>
             </NavLink>
-       
-        </li>
+        </li> 
         <li className="hide">
              <NavLink to="/like">
             <div className="list-sidebar">
@@ -38,7 +38,7 @@ const Sidebar = () => {
         <NavLink to="/watchlater">
             <div className="list-sidebar">
               <i className="fa-solid fa-clock sider-icn"></i>
-              <div className="sidebar-icn-name-watchlater">Watchlater</div>
+              <div className="sidebar-icn-name">Watchlater</div>
             </div>
             </NavLink>
         </li>
@@ -50,11 +50,22 @@ const Sidebar = () => {
             </div>
             </NavLink>
         
+        </li> 
+        <li className="profile">
+          <NavLink to="/profile">
+            <div className="list-sidebar">
+              <i className="fa-solid fa-user sider-icn"></i>
+              <div className="sidebar-icn-name">Profile</div>
+            </div>
+          </NavLink>
         </li>
+
+      
+       
        
       </ul>
     </nav>
-    </div>
+    
   )
 }
 
